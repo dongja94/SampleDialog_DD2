@@ -42,6 +42,6 @@ public class SecondDialogFragment extends DialogFragment {
                 Toast.makeText(getContext(), "OK Click", Toast.LENGTH_SHORT).show();
             }
         });
-        return builder.show();
+        return builder.create();
     }
 }
