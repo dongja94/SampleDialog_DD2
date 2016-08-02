@@ -80,4 +80,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="onHorizontalProgress" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog Fragment"
+        android:id="@+id/btn_dialog_fragment"
+        android:layout_below="@+id/btn_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onDialogFragmentClick" />
 </RelativeLayout>

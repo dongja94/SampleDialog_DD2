@@ -171,4 +171,10 @@ public class MainActivity extends AppCompatActivity {
 
         }
     };
+
+
+    public void onDialogFragmentClick(View view) {
+        MyDialogFragment f = new MyDialogFragment();
+        f.show(getSupportFragmentManager(), "dialog");
+    }
 }
