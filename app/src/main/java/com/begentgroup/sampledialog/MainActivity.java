@@ -177,4 +177,9 @@ public class MainActivity extends AppCompatActivity {
         MyDialogFragment f = new MyDialogFragment();
         f.show(getSupportFragmentManager(), "dialog");
     }
+
+    public void onCustomDialog(View view) {
+        LoginFragment f = new LoginFragment();
+        f.show(getSupportFragmentManager(), "login");
+    }
 }
